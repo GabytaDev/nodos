@@ -1,0 +1,21 @@
+.titulo{
+    color: blue;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.boton{
+    width: 200px;
+    height: 20px;
+    
+}
+
+.fondo{
+    background-color: khaki;
+    height: 200px;
+}
+
+.parrafo{
+    text-decoration: line-through;
+    color: grey;
+}

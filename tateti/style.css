@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tablero {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 600px;
+}
+
+.casilla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 180px;
+  margin: 10px;
+  box-sizing: border-box;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  font-size: 60px;
+  font-weight: bold;
+}
