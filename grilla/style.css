@@ -1,0 +1,8 @@
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 800px;
+    border: 1px solid #000;
+ }
+ 
