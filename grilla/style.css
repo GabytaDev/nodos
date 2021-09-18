@@ -4,5 +4,12 @@
     width: 800px;
     height: 800px;
     border: 1px solid #000;
- }
+}
  
+.claseCasilla{
+    background-color: rgb(233, 132, 16); 
+    width: 70px;
+    height: 60px; 
+    margin: 5px;
+
+}

@@ -14,11 +14,19 @@ const body = document.querySelector("body")
 let contenedor = document.createElement("div")
 contenedor.classList.add("contenedor")
 
-
-
+body.appendChild(contenedor)
+                    //  10       10       
 const generarGrilla = (filas, columnas, contenedor, claseCasilla) => {
-    
+
+    for (let i = 0; i < filas * columnas; i++) {
+
+        const casilla = document.createElement("div")
+        casilla.classList.add(claseCasilla)
+        contenedor.appendChild(casilla)
+        
+    }
 }
 
-body.appendChild(contenedor)
+
+console.log(generarGrilla(10,10,contenedor,"claseCasilla"))
 
